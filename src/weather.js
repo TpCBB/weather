@@ -141,6 +141,7 @@ async function sweetNothings() {
     let res = await axiosGet("/sweetword/words/api.php?return=json")
     let str = ""
     config.loveStr ? str = config.loveStr : str = res.data.word
+    console.log(str);
     return str.replace(/<br>/g, "\n")
 }
 // 随机颜色
@@ -311,5 +312,6 @@ function send() {
 
 export {
     templateMessageSend,
-    send
+    send,
+    sweetNothings
 }

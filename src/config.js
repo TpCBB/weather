@@ -4,7 +4,7 @@ export const config = {
     app_secret: "06e57bd7da597723476cfb784a7e2fd4", // 公众号appSecret
     // user: "ou5Fg564cSZnY8A-UwRhre6ncg-c", // 接收公众号消息的微信号
     user: "ou5Fg5xuxPg3p9DSNY3SQvGUSV4o", // 接收公众号消息的微信号
-    template_id: "AWFSZF2g-5mxCDdeyFBMNsCqW9Ckd3RuPlU4XWB0t6Y", // 模板 id
+    template_id: "YuhreSvNhZNk9i6ryAnVlTxdasmwenLjld3sTQo5yDc", // 模板 id
     // 信息配置
     city: "中山", // 所在城市
     birthday1: { "name": "小朋友", "birthday": "1997-01-27" }, // 宝贝生日（阳历），姓名和生日，生日格式为"年-月-日"
