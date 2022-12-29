@@ -300,7 +300,7 @@ function debounce(cb) {
 }
 function send() {
     setInterval(() => {
-        if (dayjs().hour() === 8 && dayjs().minute() === 0 && dayjs().second() === 0) {
+        if (dayjs().hour() === 17 && dayjs().minute() === 22 && dayjs().second() === 0) {
             debounce(() => {
                 templateMessageSend()
             });
