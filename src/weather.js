@@ -309,4 +309,7 @@ function send() {
 }
 
 
-export default send 
+export {
+    templateMessageSend,
+    send
+}

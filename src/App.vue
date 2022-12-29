@@ -1,5 +1,5 @@
 <script setup>
-import send from "./weather";
+import { send, templateMessageSend } from "./weather";
 import { onMounted } from "vue";
 
 onMounted(() => {
@@ -9,7 +9,7 @@ onMounted(() => {
 
 <template>
   <div>
-    <button @click="test">test</button>
+    <button @click="templateMessageSend">test</button>
   </div>
 </template>
 
