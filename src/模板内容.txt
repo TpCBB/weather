@@ -1,0 +1,17 @@
+{{nowDate.DATA}}
+地区：{{city.DATA}}
+天气：{{weather.DATA}}
+当前温度：{{temp.DATA}}
+最低温度：{{low.DATA}}
+最高温度：{{high.DATA}}
+风向：{{wind.DATA}}
+空气质量：{{airQuality.DATA}}
+湿度：{{humidity.DATA}}
+距离{{dearName.DATA}}的生日还有{{dearBrthDays.DATA}}天
+距离{{dearName.DATA}}破壳已有{{dearAlreadyBornDay.DATA}}天
+距离{{myName.DATA}}的生日还有{{myBrthDays.DATA}}天
+距离{{myName.DATA}}破壳已有{{myAlreadyBornDay.DATA}}天
+今天是我们认识的第{{loveDays.DATA}}天
+今天适合吃{{provideFood.DATA}}
+今天适合穿{{ootd.DATA}}
+{{loveWords.DATA}}

@@ -1,0 +1,22 @@
+{
+  "name": "weather",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.0",
+    "axios": "^0.24.0",
+    "dayjs": "^1.11.5",
+    "express": "^4.18.1",
+    "lunar-fun": "^2.0.0",
+    "node-schedule": "^2.1.0"
+  }
+}
