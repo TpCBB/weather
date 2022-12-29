@@ -1,10 +1,8 @@
 <script setup>
-import { send, templateMessageSend,sweetNothings } from "./weather";
+import { send, templateMessageSend, sweetNothings } from "./weather";
 import { onMounted } from "vue";
 
-onMounted(() => {
-  send();
-});
+onMounted(() => {});
 </script>
 
 <template>
